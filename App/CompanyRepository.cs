@@ -8,7 +8,7 @@ using System.Text;
 
 namespace App
 {
-    public class CompanyRepository
+    public class CompanyRepository : ICompanyRepository
     {
         public Company GetById(int id)
         {
