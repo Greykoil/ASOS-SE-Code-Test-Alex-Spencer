@@ -47,9 +47,15 @@
     <Compile Include="Company.cs" />
     <Compile Include="CompanyRepository.cs" />
     <Compile Include="Customer.cs" />
-    <Compile Include="CustomerCreditService.cs" />
-    <Compile Include="CustomerDataAccess.cs" />
+    <Compile Include="CreditService\CustomerCreditService.cs" />
+    <Compile Include="CreditService\CustomerCreditServiceWrapper.cs" />
+    <Compile Include="DataAccess\CustomerDataAccess.cs" />
+    <Compile Include="DataAccess\CustomerDataAccessWrapper.cs" />
     <Compile Include="CustomerService.cs" />
+    <Compile Include="ICompanyRepository.cs" />
+    <Compile Include="CreditService\ICustomerCreditServiceWrapper.cs" />
+    <Compile Include="DataAccess\ICustomerDataAccessWrapper.cs" />
+    <Compile Include="ICustomerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
